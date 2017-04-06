@@ -1,6 +1,9 @@
 # GrazJS #15: Mastering I18N with the Aurelia I18N plugin 
 
 The presentation material for my talk at the GrazJS #15.
+You can see the presentation here:
+
+[https://zewa666.github.io/grazjs_15/](https://zewa666.github.io/grazjs_15/)
 
 ## How to run?
 
