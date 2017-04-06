@@ -1,0 +1,12 @@
+{
+  "presentation-title": "Aurelia I18N Plugin Demo",
+  "slide_intro": {
+    "title": "Sprichst du I18N?",
+    "imgtitle": "Das Aurelia Logo",
+    "caption": "I18N mit dem Aurelia I18N Plugin meistern"
+  },
+  "i18n_slide": {
+    "cultural_image": "./images/wiener-schnitzel.jpg",
+    "complex_demo": "Willkommen bei der {{place}}! Wir haben Platz für {{range.from}} bis {{range.to}} Leute"
+  }
+}

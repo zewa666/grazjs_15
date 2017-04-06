@@ -1,0 +1,49 @@
+<template>
+  <require from="reveal.js/css/reveal.css"></require>
+  <require from="reveal.js/css/theme/blood.css"></require>
+  <require from="./app.css"></require>
+
+  <div class="presentation-header">
+    <ul class="languages">
+      <li class="${ selectedLanguage === 'en' ? 'selected' : ''}"><a href="#" click.delegate="switchLanguage('en')">English</a></li>
+      <li class="${ selectedLanguage === 'de' ? 'selected' : ''}"><a href="#" click.delegate="switchLanguage('de')">Deutsch</a></li>
+    </ul>
+  </div>
+  <div class="reveal">
+      <div class="slides">
+          <slide>
+            
+            <slide name="intro-slide">
+              <h3 t="slide_intro.title"></h3>
+              <span t="slide_intro.caption">Mastering I18N with the Aurelia I18N plugin</span>
+
+              <img style="height: 300px;" src="./images/brace_yourself_i18n.jpg" />
+
+              <div class="author">
+                <h3>Vildan Softic</h3>
+                <span>zewa666@gmail.com | github.com/zewa666 | pragmatic-coder.net</span>
+              </div>
+            </slide>
+
+            <slide>
+              <h4>About me</h4>
+              <ul>
+                <li fragment>Core Team Member Aurelia</li>
+                <li fragment>I18N, Animations</li>
+                <li fragment>Ranorex GmbH</li>
+                <li fragment>Conference Presentations</li>
+                <li fragment>Frontend Architecture Consulting</li>
+                <li fragment>Blog posts on SitePoint</li>
+                <li fragment>AngularJS 1.x Book<br /><img style="height: 150px" src="./images/angular-book.png"></li>
+              </ul>
+            </slide>
+          </slide>
+          
+          <contents-slide></contents-slide>
+          <i18n-slide containerless></i18n-slide>
+          <aurelia-slide containerless></aurelia-slide>
+          <setup-slide containerless></setup-slide>
+          <conclusion-slide containerless></conclusion-slide>
+      </div>
+  </div>
+</template>

@@ -1,0 +1,92 @@
+<template>
+  <script>
+    window.mydate = new Date();
+  </script>
+  <slide name="aurelia-slide">
+
+    <slide>
+      <img src="./images/aurelia_logo.png" t="[title]slide_intro.imgtitle" /><br />
+      <h3>I18N Plugin</h3>
+
+      <div class="plugin-links">
+        <a href="http://github.com/aurelia/i18n">Github: aurelia/i18n</a><br />
+
+        <a href="http://aurelia.io/hub.html#/doc/article/aurelia/i18n/latest/i18n-with-aurelia">
+          Official docs: http://bit.ly/2oCzeCO
+        </a>
+      </div>
+
+      <small fragment>"Don't forget to translate img-titles as well"</small>
+    </slide>
+
+    <script>
+      const items = [
+        "",
+        "",
+        "CustomAttribute (t | t-params)",
+        "TValueConverter",
+        "TBindingBehavior"
+      ];
+    </script>
+
+    <slide>
+      <h3>Aurelia I18N Plugin</h3>
+      <ul>
+        <li fragment>Wrapper for i18next</li>
+        <li fragment>Full Aurelia integration</li>
+        <li fragment>
+          CustomAttribute<br />
+          <code>t | t-params</code>
+        </li>
+        <li fragment>
+          TValueConverter<br />
+          <code>\${ 'mykey' | t}</code>
+        </li>
+        <li fragment>
+          TBindingBehavior<br />
+          <code>\${ 'mykey' & t}</code>
+        </li>
+      </ul>
+    </slide>
+
+    <slide>
+      <h3>i18next features</h3>
+
+      <ul>
+        <li fragment>Flexible connection to backend (loading translations via xhr, bundle ...)</li>
+        <li fragment>Optional caching, user language detection, …</li>
+        <li fragment>Proper pluralizations</li>
+        <li fragment>Translation context</li>
+        <li fragment>Nesting, Variable replacement</li>
+      </ul>
+    </slide>
+
+    <slide>
+      <h3>Extends i18next features</h3>
+
+      <ul>
+        <li fragment>I18N Attributes on steroids</li>
+        <li fragment>Custom loader (ties into bundle)</li>
+        <li fragment>TypeScript support</li>
+        <li fragment>Translate without refreshing</li>
+      </ul>
+    </slide>
+
+    <slide>
+      <h3>Intl.js features</h3>
+       
+      <ul>
+        <li fragment>Formatting numbers<br />
+          ${ 1234567.890 & nf }
+        </li>
+        <li fragment>Formatting dates<br />
+          ${ '2017-04-11' & df}
+        </li>
+        <li fragment>Relative time<br />
+        ${ '2017-04-11 16:00:00' | rt }</li>
+        <li fragment>Intl.js Polyfill</li>
+      </ul>
+    </slide>
+
+  </slide>
+</template>

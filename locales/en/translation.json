@@ -1,0 +1,12 @@
+{
+  "presentation-title": "Aurelia I18N Plugin Demo",
+  "slide_intro": {
+    "title": "Do you speak I18N?",
+    "imgtitle": "The Aurelia logo",
+    "caption": "Mastering I18N with the Aurelia I18N plugin"
+  },
+  "i18n_slide": {
+    "cultural_image": "./images/burger.jpg",
+    "complex_demo": "Welcome to {{place}}! We've got space for {{range.from}} to {{range.to}} people"
+  }
+}

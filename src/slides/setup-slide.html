@@ -1,0 +1,55 @@
+<template>
+  <slide>
+    <slide>
+      <h3>Setup the plugin</h3>
+
+      <p>
+        Aurelia supports different build systems, we'll focus on the CLI scenario.
+        First install the dependencies
+      </p>
+
+      <pre>
+        <code data-trim data-noescape>
+          npm install aurelia-i18n
+          npm install i18next i18next-xhr-backend
+        </code>
+      </pre>
+    </slide>
+
+    <slide>
+      <p>
+        Next we need to declare the dependencies in the build tooling inside `aurelia_project/aurelia.json`
+      </p>
+
+      <pre>
+        <code data-trim data-noescape>
+          {
+            "name": "i18next",
+            "path": "../node_modules/i18next/dist/umd",
+            "main": "i18next"
+          },{
+            "name": "aurelia-i18n",
+            "path": "../node_modules/aurelia-i18n/dist/amd",
+            "main": "aurelia-i18n"
+          },{
+            "name": "i18next-xhr-backend",
+            "path": "../node_modules/i18next-xhr-backend/dist/umd",
+            "main": "i18nextXHRBackend"
+          }
+        </code>
+      </pre>
+    </slide>
+
+    <slide>
+      <p>
+        After that we create our translations files and configure the plugin inside the file `main.js`
+      </p>
+
+      <pre>
+        <code>
+          Time for a deep-dive
+        </code>
+      </pre>
+    </slide>
+  </slide>
+</template>

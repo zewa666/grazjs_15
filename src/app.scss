@@ -1,0 +1,37 @@
+@import 'slides/slides';
+
+.presentation-header {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.languages {
+  list-style: none;
+  margin: 0 auto 10px auto;
+  display: inline-block;
+  width: 200px;
+
+  li {
+    float: left;
+    margin-right: 10px;
+
+    &.selected {
+      text-decoration: underline;
+      
+      * {
+        color: blue!important;
+      }
+    }
+
+    a {
+      &,
+      &:hover,
+      &:active,
+      &:visited {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+      }
+    }
+  }
+}
