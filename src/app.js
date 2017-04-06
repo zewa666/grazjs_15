@@ -17,7 +17,11 @@ export class App {
 
   attached() {
     Reveal.initialize({
-      center: false
+      center: false,
+      keyboard: {  // left/right arrows should also catch vertical slides -> remote control
+        39: 'navigateNext',
+        37: 'navigatePrev'
+      }
     });
   }
 
