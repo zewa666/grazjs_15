@@ -39,7 +39,11 @@ define('app',['exports', 'reveal.js', 'aurelia-i18n', 'aurelia-event-aggregator'
 
     App.prototype.attached = function attached() {
       _reveal2.default.initialize({
-        center: false
+        center: false,
+        keyboard: {
+          39: 'navigateNext',
+          37: 'navigatePrev'
+        }
       });
     };
 
