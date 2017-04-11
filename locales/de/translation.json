@@ -8,5 +8,20 @@
   "i18n_slide": {
     "cultural_image": "./images/wiener-schnitzel.jpg",
     "complex_demo": "Willkommen bei der {{place}}! Wir haben Platz für {{range.from}} bis {{range.to}} Leute"
+  },
+  "i18next": {
+    "plural": {
+      "meetup_participant": "Entwickler",
+      "meetup_participant_plural": "Entwickler"
+    },
+    "context": {
+      "meetup_participant_male": "Entwickler",
+      "meetup_participant_female": "Entwicklerin",
+      "meetup_participant_male_plural": "Entwickler",
+      "meetup_participant_female_plural": "EntwicklerIIIIIIIIInnen"
+    },
+    "interpolation": {
+      "welcome": "Wilkommen zur {{place}}"
+    }
   }
 }

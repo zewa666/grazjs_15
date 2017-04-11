@@ -55,9 +55,19 @@
       <ul>
         <li fragment>Flexible connection to backend (loading translations via xhr, bundle ...)</li>
         <li fragment>Optional caching, user language detection, …</li>
-        <li fragment>Proper pluralizations</li>
-        <li fragment>Translation context</li>
-        <li fragment>Nesting, Variable replacement</li>
+        <li class="small-li" fragment>Proper pluralizations<br />
+          Singluar: ${'i18next.plural.meetup_participant' & t: {count: 1}} <br />
+          Plural: ${'i18next.plural.meetup_participant' & t: {count: 5}}
+        </li>
+        <li class="small-li" fragment>Translation context<br />
+          Singular male: ${'i18next.context.meetup_participant' & t: {count: 1, context: 'male'}} <br />
+          Plural male: ${'i18next.context.meetup_participant' & t: {count: 2, context: 'male'}} <br />
+          Singular female: ${'i18next.context.meetup_participant' & t: {count: 1, context: 'female'}} <br />
+          Plural female: ${'i18next.context.meetup_participant' & t: {count: 2, context: 'female'}}
+        </li>
+        <li class="small-li" fragment>Nesting, Variable interpolation<br />
+          ${'i18next.interpolation.welcome' & t: { place: 'GrazJS'}}
+        </li>
       </ul>
     </slide>
 
