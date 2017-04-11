@@ -16,8 +16,8 @@
     },
     "context": {
       "meetup_participant_male": "Developer",
-      "meetup_participant_female": "Developers",
-      "meetup_participant_male_plural": "Developer",
+      "meetup_participant_female": "Developer",
+      "meetup_participant_male_plural": "Developers",
       "meetup_participant_female_plural": "Developers"
     },
     "interpolation": {
