@@ -8,5 +8,20 @@
   "i18n_slide": {
     "cultural_image": "./images/burger.jpg",
     "complex_demo": "Welcome to {{place}}! We've got space for {{range.from}} to {{range.to}} people"
+  },
+  "i18next": {
+    "plural": {
+      "meetup_participant": "Developer",
+      "meetup_participant_plural": "Developers"
+    },
+    "context": {
+      "meetup_participant_male": "Developer",
+      "meetup_participant_female": "Developers",
+      "meetup_participant_male_plural": "Developer",
+      "meetup_participant_female_plural": "Developers"
+    },
+    "interpolation": {
+      "welcome": "Welcome to {{place}}"
+    }
   }
 }
